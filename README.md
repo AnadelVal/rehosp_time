@@ -11,5 +11,5 @@ The prescriptions administered in each admission are also filtered by the most f
 Both the diagnoses and prescriptions have been encoded and transformed to columns following the one-hot encoding technique.
 The doctor notes contain information about the clinical history of the patients and the information at the time of discharge. These notes have been modeled implementing Word2Vec technique, transforming the text to vectors of 96 elements. These vectors, in turn, have also been transformed to columns of the dataset. 
 The models are trained based on cross-validation technique. The labeled data conform the 23.71% of the available data, using 80% for training.
-The models implemented are classifiers: Random Forest, NaiveBayes, Support Vector Machine and decision trees.
+The models implemented are regressors: Random Forest Regressor, Bayesian Ridge, Support Vector Regression and Decision tree regressor.
 
